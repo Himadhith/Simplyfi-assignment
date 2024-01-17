@@ -21,6 +21,7 @@ def num_player_shot(n, h, list_players):
 # y = [2,13,4,16]
 # print(num_player_shot(x,y))
 res_list = []
+#Created a new input file so that it is easier to change any input with ease.
 with open('q2_input.txt', 'r') as file:
     lines = file.readlines()
 
