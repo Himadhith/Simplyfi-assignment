@@ -8,14 +8,14 @@
 #4 6
 #1 2 3 4
 def num_player_shot(n, h, list_players):
-    
+    #initialzing a variable to store the number of players to be shot
     res = 0
     for i in list_players:
-        if i>h:
-            res+=1
+        if i>h: #checks if the players in between are stricly greater than the height of ali and gi-hun
+            res+=1 #increments them if they are else passes without any change
     if n<res:
-        return "Error"
-    return res
+        return "Error" #if the number of players to be shot is more than the number of players between them it returns an error
+    return res #Contains the number of players to be shot so that the line of sight is visible.
 
 # x = [4,10]
 # y = [2,13,4,16]
