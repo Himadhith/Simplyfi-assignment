@@ -1,1 +1,1 @@
-I have added an input.txt file for the 2nd question so that it is easier to change inputs as per the user desires.
+I have added an input.txt file for the 2nd question to make it easier to change inputs as per the user's desires.
